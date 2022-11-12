@@ -1,0 +1,50 @@
+#image {
+    height: 100px;
+    width: 100px;
+}
+
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+#bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#card {
+    margin: 10px;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+h6{
+margin-top:1;
+border: 1px solid brown;
+margin-bottom: .1px;
+}
+h5{
+    margin-top:1;
+    color: teal;
+    border: 1px solid brown;
+    margin-bottom: .1px;
+}
+p{
+    margin-top:1;
+    border: 1px solid brown;
+    margin-bottom: .1px;
+}
+
+
+#h1{
+    height: 19px;
+  
+}
